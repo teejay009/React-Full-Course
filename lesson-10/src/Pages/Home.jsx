@@ -1,4 +1,4 @@
-import Feed from "./Feed";
+import { Feed } from "../Components/index";
 import { useStoreState } from "easy-peasy";
 
 const Home = ({ fetchError, isLoading }) => {

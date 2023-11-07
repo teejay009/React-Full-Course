@@ -1,12 +1,7 @@
 
 import { Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import NewPost from "./NewPost";
-import PostPage from "./PostPage";
-import Missing from "./Missing";
-import About from "./About";
-import HomeLayout from "./HomeLayout";
-import EditPost from "./EditPost";
+import {Home, NewPost, PostPage, Missing, About, EditPost} from "./Pages/index";
+import HomeLayout from "./Layouts/HomeLayout";
 import { useEffect } from "react";
 import useAxiosFetch from "./hooks/useAxiosFetch";
 import { useStoreActions } from "easy-peasy";
