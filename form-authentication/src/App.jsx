@@ -6,7 +6,7 @@ const App = () => {
     <main className='App'>
         <Login />
       
-    </mai>
+    </main>
   )
 }
 
